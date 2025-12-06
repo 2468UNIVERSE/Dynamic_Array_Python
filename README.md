@@ -1,30 +1,29 @@
-#📘 MyList – Custom Dynamic Array in Python
+# MyList – Custom Dynamic Array in Python.
 A complete custom implementation of Python’s list using ctypes and dynamic array resizing, built from scratch for learning low-level data structure internals.
 
-#🔥 Features
-Dynamic resizing (like Python list / ArrayList)
-Append, Insert, Remove
-Pop, Clear
-Find element
-Extend with another list
-Sort (ascending & descending)
-Max & Min
-Deletion by index
-Custom __getitem__, __str__, __len__
-Backed by C-style array using ctypes
+## Features:
+1- Dynamic resizing (like Python list / ArrayList)
+2- Append, Insert, Remove
+3- Pop, Clear
+4- Find element
+5- Extend with another list
+6- Sort (ascending & descending)
+7- Max & Min
+8- Deletion by index
+9- Custom __getitem__, __str__, __len__
+10- Backed by C-style array using ctypes
 
-#🚀 How It Works
-This project manually implements:
-A resizable array
-C-type storage (ctypes.py_object)
-Manual resizing when list grows
-Element shifting for insertion and deletion
-Bubble-sort logic
-Magic methods for indexing and printing
-This helps understand how Python lists work internally.
+## How It Works? 
+### This project manually implements:
+1- A resizable array
+2- C-type storage (ctypes.py_object)
+3- Manual resizing when list grows
+4- Element shifting for insertion and deletion
+5- Bubble-sort logic
+6- Magic methods for indexing and printing
+7- This helps understand how Python lists work internally.
 
-#🧠 Methods Implemented
-
+## Methods Implemented:
 | Method                | Description              |
 | --------------------- | ------------------------ |
 | `append(item)`        | Add element at end       |
@@ -43,10 +42,10 @@ This helps understand how Python lists work internally.
 | `__getitem__(index)`  | Indexing support         |
 | `__delitem__(index)`  | Delete by index          |
 
-#🎯 Goal of This Project
-This project is built for learning how Python’s list works internally by manually implementing:
-memory allocation
-resizing
-C-style arrays
-element shifting
-sorting
+## Goal of This Project
+### This project is built for learning how Python’s list works internally by manually implementing:
+1- memory allocation
+2- resizing
+3- C-style arrays
+4- element shifting
+5- sorting
