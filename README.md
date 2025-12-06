@@ -2,26 +2,26 @@
 A complete custom implementation of Python’s list using ctypes and dynamic array resizing, built from scratch for learning low-level data structure internals.
 
 ## Features:
-1- Dynamic resizing (like Python list / ArrayList)
-2- Append, Insert, Remove
-3- Pop, Clear
-4- Find element
-5- Extend with another list
-6- Sort (ascending & descending)
-7- Max & Min
-8- Deletion by index
-9- Custom __getitem__, __str__, __len__
-10- Backed by C-style array using ctypes
+1. Dynamic resizing (like Python list / ArrayList)
+2. Append, Insert, Remove
+3. Pop, Clear
+4. Find element
+5. Extend with another list
+6. Sort (ascending & descending)
+7. Max & Min
+8. Deletion by index
+9. Custom __getitem__, __str__, __len__
+10. Backed by C-style array using ctypes
 
 ## How It Works? 
 ### This project manually implements:
-1- A resizable array
-2- C-type storage (ctypes.py_object)
-3- Manual resizing when list grows
-4- Element shifting for insertion and deletion
-5- Bubble-sort logic
-6- Magic methods for indexing and printing
-7- This helps understand how Python lists work internally.
+1. A resizable array
+2. C-type storage (ctypes.py_object)
+3. Manual resizing when list grows
+4. Element shifting for insertion and deletion
+5. Bubble-sort logic
+6. Magic methods for indexing and printing
+7. This helps understand how Python lists work internally.
 
 ## Methods Implemented:
 | Method                | Description              |
@@ -44,8 +44,8 @@ A complete custom implementation of Python’s list using ctypes and dynamic arr
 
 ## Goal of This Project
 ### This project is built for learning how Python’s list works internally by manually implementing:
-1- memory allocation
-2- resizing
-3- C-style arrays
-4- element shifting
-5- sorting
+1. memory allocation
+2. resizing
+3. C-style arrays
+4. element shifting
+5. sorting
